@@ -56,14 +56,22 @@ body {
   body h1:after {
     top: 2px;
     left: 2px; }
-  body .main, body > ul {
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 1.7em; }
   body .contact {
     font-size: 3em;
     text-align: center; }
+  body .titlePortfolio {
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  body .main, body > ul {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 1.7em; }
+    body .main h2:first-child, body > ul h2:first-child {
+      margin-top: 0; }
+      body .main h2:first-child p, body > ul h2:first-child p {
+        text-align: center; }
   body footer {
     clear: both;
+    display: block;
     bottom: 1em;
     height: 2em;
     line-height: 2em;
@@ -79,20 +87,22 @@ body {
         position: absolute;
         right: 0;
         bottom: 0; }
+  body h2 {
+    text-align: center; }
 
 body > ul {
   list-style: none; }
 
 a {
-  color: #4aaef8; }
+  color: #4aaef8;
+  text-decoration: none; }
 
 nav {
   font-size: 1.5em;
   font-family: ANReg, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #dddddd;
-  background-image: inherit;
-  background-color: white;
+  background: inherit;
   color: #606060;
   width: 100%;
   margin: 0 auto; }
@@ -111,4 +121,4 @@ nav {
     margin: inherit;
     display: block;
     max-width: 50%;
-    width: 15%; }
+    width: 7em; }
