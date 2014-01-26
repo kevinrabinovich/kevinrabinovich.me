@@ -24,16 +24,6 @@ module.exports = function (grunt) {
                 tasks: ['autoprefixer']
             }
         },
-		imagemin: {
-			dynamic: {
-				files: [{
-					expand: true,
-					cwd: 'images/',
-					src: ['**/*.{png,jpg,gif}'],
-					dest: 'images/build/'
-				}]
-			}
-		},
 		sass: {
 			dist: {
 				options: {
@@ -48,6 +38,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-autoprefixer');
-	grunt.loadNpmTasks('grunt-contrib-imagemin');
-	grunt.registerTask('default', ['sass', 'autoprefixer', 'imagemin']);
+	grunt.registerTask('default', ['sass', 'autoprefixer']);
 };
