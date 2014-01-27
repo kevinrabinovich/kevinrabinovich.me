@@ -23,12 +23,29 @@ nav
 			display: inline-block
 			margin-left: 1em
 			margin-right: 1em
+			&:hover
+				border-top: 1px dashed #333
+				border-bottom: 1px dashed #333
+				padding: 4px 10px
+				transition: all .3s ease-in-out
 			a
 				color: #606060
 				text-decoration: none
 				&:hover
-					color: #303030
+					color: #484848
 					transition: all .3s ease-in-out
+		.here
+			border-top: 1px solid #555
+			border-bottom: 1px solid #555
+			padding: 4px 10px
+			color: #303030
+			&:hover
+				border-top: 1px solid #555
+				border-bottom: 1px solid #555
+				color: #303030
+				transition: none
+			a
+				color: inherit
 	> p
 		text-align: center
 	.logo
