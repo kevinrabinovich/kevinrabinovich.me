@@ -87,7 +87,7 @@ a {
   background-color: #555555;
   color: #bebebe; }
 
-.top {
+.top, .announcement:after {
   background-color: gray;
   background-image: repeating-linear-gradient(135deg, transparent, transparent 35px, rgba(255, 255, 255, 0.5) 35px, rgba(255, 255, 255, 0.5) 70px);
   height: 1em;
@@ -99,7 +99,6 @@ nav {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  border-bottom: 1px solid #dddddd;
   background: inherit;
   color: #606060;
   width: 100%;
@@ -143,6 +142,12 @@ nav {
     display: block;
     max-width: 20%;
     width: 6em; }
+
+.announcement {
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
+  padding: 0.5em; }
 
 footer {
   clear: both;
