@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'larsseit';
+    src: url('../fonts/larsseit-webfont.woff2') format('woff2'),
+         url('../fonts/larsseit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'larsseit';
+    src: url('../fonts/larsseit-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/larsseit-extrabold-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+/*
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-bold-webfont.woff2') format('woff2'),
+         url('larsseit-bold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-bolditalic-webfont.woff2') format('woff2'),
+         url('larsseit-bolditalic-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-extrabolditalic-webfont.woff2') format('woff2'),
+         url('larsseit-extrabolditalic-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-italic-webfont.woff2') format('woff2'),
+         url('larsseit-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-light-webfont.woff2') format('woff2'),
+         url('larsseit-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-lightitalic-webfont.woff2') format('woff2'),
+         url('larsseit-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-medium-webfont.woff2') format('woff2'),
+         url('larsseit-medium-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-mediumitalic-webfont.woff2') format('woff2'),
+         url('larsseit-mediumitalic-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-thin-webfont.woff2') format('woff2'),
+         url('larsseit-thin-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'larsseit';
+    src: url('larsseit-thinitalic-webfont.woff2') format('woff2'),
+         url('larsseit-thinitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}
+*/
+
+
+/*
+.container > .row > .four.columns {
+    text-align: right;
+    font-weight: 800;
+    text-transform: uppercase;
+}*/
+
+.main {
+    font-size: 1.5em;
+    font-family: larsseit;
+    line-height: 1.6em;
+}
+
+.name {
+    font-family: larsseit;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+a {
+    background: #1EAEDB;
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+/*    height: 1.4em;*/
+    width: auto;
+    line-height: 1.3em;
+}
+a.blue {
+  color: #1EAEDB; }
+a:hover {
+    color: #0FA0CE;
+    background:none;
+}
+
+
+
+/*
+a:visited{
+    background: #1EAEDB;
+}
+*/
+
+span.ideas {
+    color: #e62b1e;
+}
+
+    a.ideas {
+        background: #e62b1e; /* TED red! */
+    }
+
+    a.ideas:hover {
+        color: #e62b1e;
+    }
+
+
+span.youth {
+    color: #cdde00;
+}
+
+    a.youth {
+        background: #cdde00;
+    }
+
+    a.youth:hover {
+        color: #cdde00;
+    }
+
+
+span.design {
+    color: rebeccapurple;
+}
+
+    a.design {
+        background: rebeccapurple;
+    }
+
+    a.design:hover {
+        color: rebeccapurple;
+    }
+
+
+span.tech {
+    color: blue;
+}
+
+    a.tech {
+        background: blue;
+    }
+
+    a.tech:hover {
+        color: blue;
+    }
+
+
+span.edu {
+    color:mediumaquamarine;
+}
+
+    a.edu {
+        background: mediumaquamarine;
+    }
+
+    a.edu:hover {
+        color: mediumaquamarine;
+    }
+
+
+
+a:hover{
+    background: white;
+}
